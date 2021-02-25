@@ -36,3 +36,29 @@ pre: ''
   Cleaned          |  0
   Total in 64 ms
   ```
+
+### Deploy to production using amplify
+
+- First, need to push all hugo source code to github repository
+
+- Move to Amplify console and choose "Host your we app"
+  ![](images/lab4img8.png)
+
+- Connect to GitHub
+  ![](images/lab4img7.png)
+
+- Authorize repository
+  ![](images/lab4img6.png)
+
+- Configure build settings (leave it as it is)
+  ![](images/lab4img5.png)
+
+- Save and deploy
+  ![](images/lab4img4.png)
+
+- Provision, build, deploy, verify processes are automatically run. Copy below url https://master~
+  ![](images/lab4img3.png)
+
+- After deploy, chage the link and push to github again. Amplify automatically provision again.
+  ![](images/lab4img2.png)
+  ![](images/lab4img1.png)

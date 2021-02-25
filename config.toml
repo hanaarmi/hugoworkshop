@@ -1,5 +1,5 @@
 # baseURL
-baseURL = "/hugoworkshop/"
+baseURL = "https://master.d3obo08co7s88o.amplifyapp.com"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 

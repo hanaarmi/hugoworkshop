@@ -1,17 +1,20 @@
-baseURL = "/analytics201/"
-languageCode = "ko-KR"
-defaultContentLanguage = "ko"
+# baseURL
+baseURL = "/hugoworkshop/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
 
-title = "AWS Analytics 서비스 워크샵"
+# title
+title = "Making hugo based hands on lab site"
 theme = "hugo-theme-learn"
 themesdir = "."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
-#ignoreFiles = [ "\\.*lab3\\.*" ]
+ignoreFiles = []
 
+# description, author
 [params]
-  description = "AWS Analytics Services Workshop"
-  author = "Inhwan Hwang"
+  description = "Description"
+  author = "Author Name"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -20,12 +23,12 @@ defaultContentLanguageInSubdir= true
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[Languages.ko]
-title = "AWS Analytics 서비스 워크샵"
+[Languages.en]
+title = ""
 weight = 1
-languageName = "한국어"
+languageName = "English"
 
-[[Languages.ko.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> 크레딧"
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits/"
 weight = 30
